@@ -1,0 +1,12 @@
+# Store text files with LF line endings in the repository (Git converts them for Windows on checkout).
+* text=auto
+
+# The Gradle wrapper script must keep LF endings so it also runs on macOS/Linux (and GitHub Actions).
+gradlew text eol=lf
+*.bat   text eol=crlf
+
+# Binary files: never touch.
+*.jar   binary
+*.png   binary
+*.webp  binary
+*.jks   binary

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Small white icon for the review reminder notification (same design as the app icon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="52"
+    android:viewportHeight="52">
+    <group
+        android:translateX="-28"
+        android:translateY="-28">
+        <path
+            android:pathData="M31,42V35a4,4 0,0 1,4,-4H42M66,31h7a4,4 0,0 1,4,4V42M77,66v7a4,4 0,0 1,-4,4H66M42,77H35a4,4 0,0 1,-4,-4V66"
+            android:strokeWidth="4.5"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M53,45.5C48.5,42.3 43,41.6 38,43.2V64.5C43,63 48.5,63.6 53,66.6ZM55,45.5C59.5,42.3 65,41.6 70,43.2V64.5C65,63 59.5,63.6 55,66.6Z" />
+    </group>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only used for the moment before the app draws its own (Compose) screen. -->
+    <style name="Theme.CameraDictionary" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

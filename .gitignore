@@ -1,0 +1,24 @@
+# --- Build output and caches (re-created automatically, never commit) ---
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# --- Machine-specific settings ---
+local.properties
+*.iml
+.DS_Store
+
+# --- Android Studio settings (personal; Android Studio re-creates them) ---
+.idea/
+
+# --- SECRETS: your app signing key and its passwords must NEVER be uploaded ---
+*.jks
+*.keystore
+keystore.properties
+
+# --- Release files you upload to Google Play (keep them out of Git) ---
+*.aab
+*.apk

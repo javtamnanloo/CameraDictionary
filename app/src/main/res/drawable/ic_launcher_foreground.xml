@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon: an open book inside camera viewfinder corners. Everything sits inside the
+     66dp "safe zone", so no launcher shape (circle, squircle...) cuts it off. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Viewfinder corners -->
+    <path
+        android:pathData="M31,42V35a4,4 0,0 1,4,-4H42M66,31h7a4,4 0,0 1,4,4V42M77,66v7a4,4 0,0 1,-4,4H66M42,77H35a4,4 0,0 1,-4,-4V66"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Open book: two pages -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M53,45.5C48.5,42.3 43,41.6 38,43.2V64.5C43,63 48.5,63.6 53,66.6ZM55,45.5C59.5,42.3 65,41.6 70,43.2V64.5C65,63 59.5,63.6 55,66.6Z" />
+</vector>

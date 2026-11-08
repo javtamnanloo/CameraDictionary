@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode version, so the app doesn't flash white when it opens. -->
+    <style name="Theme.CameraDictionary" parent="android:Theme.Material.NoActionBar" />
+</resources>

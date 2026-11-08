@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and older: back up only the saved-words database (your Leitner box), so it is
+     restored when you set up a new phone. Settings and caches are not backed up. -->
+<full-backup-content>
+    <include domain="database" path="." />
+</full-backup-content>
